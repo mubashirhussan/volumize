@@ -1,0 +1,125 @@
+@import "./mixins.scss";
+.primary-container {
+    margin-left: 9%;
+    margin-right: 9%;
+}
+.backGroundImage {
+   
+    background-position: center;
+    background-repeat: no-repeat;
+     background-size: contain;
+    max-width: 100%;
+  
+
+    @media screen and (min-width: 1024px) {
+        background-image: url("../images/hero-bg.svg");
+    }
+    
+    @media screen and (max-width: 1024px) {
+        background-image: none;
+
+    }
+   .content-img{
+    @media only screen and (max-width: 1300px) and (min-width: 1176px)  {
+        width: 550px !important;
+        margin-top: 4.2rem !important;
+        
+            }
+            @media only screen and (max-width: 1176px) and (min-width: 1120px)  {
+                width: 500px !important;
+                margin-top: 6.6rem !important;
+                
+                    }
+                    @media only screen and (max-width: 1119px) and (min-width: 1024px)  {
+                        width: 420px !important;
+                       
+                        
+                            }
+
+           
+
+  
+   }
+  
+  }
+  .english-mastery{
+    @media screen and (min-width: 1340px) {
+        top:-6rem !important
+
+    }
+    @media only screen and (max-width: 1290px) and (min-width: 1280px)  {
+        top:-5.2rem !important
+            }
+            @media only screen and (max-width: 1300px) and (min-width: 1290px)  {
+                top:-5.7rem !important
+                    }
+            @media only screen and (max-width: 1340px) and (min-width: 1300px)  {
+                top:-6rem !important
+                    }
+ }
+  .screens-app{
+    @media only screen and (max-width: 1200px) and (min-width: 1023px)  {
+        width: 300px;
+            }
+  }
+ 
+  .backGroundLines{
+    background-image: url("../images/lines-BG.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+  }
+
+
+.female-play-icon{
+   position: absolute; 
+   left: 70px;
+    top: 37%;
+    @media only screen and (max-width: 1280px) and (min-width: 1024px)  {
+        position: absolute; 
+        left: 47px;
+         top: 37%;
+            }
+            @media only screen and (max-width: 1024px) and (min-width: 768px)  {
+                position: absolute; 
+                left: 55px;
+                 top: 37%;
+                    }
+                    @media only screen and (max-width: 768px) and (min-width: 425px)  {
+                        position: absolute; 
+                        left: 105px;
+                         top: 37%;
+                            }
+                            @media only screen and (max-width: 425px) and (min-width: 375px)  {
+                                position: absolute; 
+                                left: 100px;
+                                 top: 37%;
+                                    }
+}
+.male-play-icon{
+    position: absolute; 
+    left: 70px;
+     top: 37%;
+     @media only screen and (max-width: 1280px) and (min-width: 1024px)  {
+        position: absolute; 
+        left: 47px;
+         top: 37%;
+            }
+            @media only screen and (max-width: 1024px) and (min-width: 768px)  {
+                position: absolute; 
+                left: 45px;
+                 top: 37%;
+                    }
+                    @media only screen and (max-width: 768px) and (min-width: 425px)  {
+                        position: absolute; 
+                        left: 95px;
+                         top: 37%;
+                            }
+                            @media only screen and (max-width: 425px) and (min-width: 375px)  {
+                                position: absolute; 
+                                left: 95px;
+                                 top: 37%;
+                                    }
+            
+}

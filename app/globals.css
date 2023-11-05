@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&family=Tenor+Sans&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+.primary-container {
+  margin-left: 7%;
+  margin-right: 7%;
+}
+.custom-progress-value::before {
+  background-color: rgb(187, 172, 201) !important;
+}
+progress[value]::-webkit-progress-value {
+  background-color: #003782 !important; /* Color of the progress value */
+}
