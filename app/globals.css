@@ -19,5 +19,5 @@
   background-color: rgb(187, 172, 201) !important;
 }
 progress[value]::-webkit-progress-value {
-  background-color: #003782 !important; /* Color of the progress value */
+  background-color: #003782 !important;
 }
